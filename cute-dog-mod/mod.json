@@ -1,0 +1,8 @@
+{
+  "id": "cute-dog-mod",
+  "name": "Cute Dog Companion",
+  "version": "0.1.0",
+  "author": "Codex",
+  "description": "Adds a tameable cute dog companion to Hytale.",
+  "entry": "scripts/cute_dog.lua"
+}
