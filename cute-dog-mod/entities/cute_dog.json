@@ -1,0 +1,44 @@
+{
+  "id": "cute_dog",
+  "display_name": "Cute Dog",
+  "type": "creature",
+  "classification": "passive",
+  "size": {
+    "height": 0.7,
+    "width": 0.9
+  },
+  "health": 20,
+  "movement_speed": 3.8,
+  "spawn": {
+    "biomes": ["meadow", "forest"],
+    "rarity": 0.25,
+    "group_size": {
+      "min": 1,
+      "max": 3
+    }
+  },
+  "sounds": {
+    "ambient": "sounds/cute_dog_bark",
+    "hurt": "sounds/cute_dog_whine",
+    "death": "sounds/cute_dog_whimper"
+  },
+  "loot": {
+    "items": [
+      {
+        "id": "bone",
+        "count": {
+          "min": 0,
+          "max": 1
+        }
+      }
+    ]
+  },
+  "ai": {
+    "behavior_set": "cute_dog_behavior"
+  },
+  "tame": {
+    "item": "bone",
+    "success_chance": 0.45,
+    "command_item": "whistle"
+  }
+}
